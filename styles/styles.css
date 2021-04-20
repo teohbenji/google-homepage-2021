@@ -1,0 +1,174 @@
+html, body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.a {
+    text-decoration: none;
+    font-size: 0.9em;
+  }
+
+.a--black {
+    color: black;
+    display: inline-block;
+    font-size: 0.85em !important; 
+    margin-left: 0.5em;
+}
+
+.a--blue {
+    color:#1a0dab;
+}
+
+.a--grey {
+    color: #70757a;      
+}
+
+.menu-icon {
+    height: 1.2em;
+    width: 1.2em;
+    margin-left: 1em;
+}
+
+.user-icon {
+    height: 2em;
+    width: 2em;
+    margin-left: 0.6em;
+}
+
+.main-header {
+    display: flex;
+    width: 100%;
+    height: 2.5em;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 0.5em;
+}
+
+.main-header > a {
+    margin-right: 0.5em;
+}
+
+.div--center {
+    display: flex;
+    justify-content: center;
+}
+
+.div-logo {
+    margin: 1em 0 2em 0;
+}
+
+.div--margin {
+    margin: 2em 0 2em 0;
+}
+
+.google-logo {
+    width: 272px;
+    height: 92px;
+}
+
+.input-search {
+    width: 45%;
+    height: 3em;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 40px;
+    border-color: #dcdcdc;
+    text-indent: 45px;
+}
+
+input:hover {
+    box-shadow: gray 0 0 1px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.magnifying-glass-icon {
+    position: absolute;
+    height: 0.85em;
+    width: 0.85em;
+    top: 30%;
+    left: 28.5%;
+    color: #dcdcdc;
+}
+
+.microphone-icon {
+    position: absolute;
+    height: 1em;
+    width: 1em;
+    top: 30%;
+    left: 70%;
+}
+
+button {
+    display: inline;
+    height: 2.7em;
+    width: 10em;
+    color: #3c4043;
+    border-radius: 4px;
+    border: none;
+    margin-left: 1em;
+}
+
+h4 {
+    font-weight: normal;
+    font-size: 0.85em;
+}
+
+h3 {
+    font-weight: lighter;
+    font-size: 1em;
+    color: #70757a;
+}
+
+.div--grey {
+    background-color: #f8f9fa;
+}
+
+.footer-location {
+    position: fixed;
+    bottom: 2.5em;
+    width: 100%;
+    padding-left: 2em;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5em;
+    padding-right: 2em;
+}
+
+.float-left {
+    position: fixed;
+    left: 2em;
+}
+
+.float-right {
+    position: fixed;
+    right: 2em;
+}
+
+.a--margin-left {
+    margin-left: 1em;
+}
+
+.a--margin-right {
+    margin-right: 2em;
+}
